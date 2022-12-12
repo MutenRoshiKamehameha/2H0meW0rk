@@ -2,43 +2,45 @@
 //  SecondViewController.swift
 //  2H0meW0rk
 //
-//  Created by Байгелди Акылбек уулу on 11/12/22.
+//  Created by Байгелди Акылбек уулу on 12/12/22.
 //
 
 import UIKit
 
 class SecondViewController: UIViewController {
 
+    @IBOutlet weak var secondViewName: UILabel!
     
-    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var secondViewSurname: UILabel!
     
-    @IBOutlet weak var surnamLbel: UILabel!
+    @IBOutlet weak var secondViewMobile: UILabel!
     
-    @IBOutlet weak var numberLabel: UILabel!
+    @IBOutlet weak var secondViewMail: UILabel!
     
-    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var secondViewPassword: UILabel!
     
-    @IBOutlet weak var passwordLabel: UILabel!
+    @IBOutlet weak var secondViewSex: UILabel!
     
-    @IBOutlet weak var sexLabel: UILabel!
     
-    var name = ""
-    var surname = ""
-    var number = ""
-    var email = ""
-    var password = ""
-    var sex = ""
+    var name: String = "" 
+    var surname: String = ""
+    var mobile: String = ""
+    var mail: String = ""
+    var password: String = ""
+    var sex: String = ""
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        nameLabel.text = name
-        surnamLbel.text = surname
-        numberLabel.text = number
-        emailLabel.text = email
-        passwordLabel.text = password
-        sexLabel.text = sex
 
+        secondViewName.text = name
+        secondViewSurname.text = surname
+        secondViewMobile.text = mobile
+        secondViewMail.text = mail
+        secondViewSex.text = sex
+        
+        
         
     }
     

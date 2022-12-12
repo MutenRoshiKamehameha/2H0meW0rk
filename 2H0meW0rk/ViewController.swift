@@ -28,8 +28,8 @@ class ViewController: UIViewController {
         
         secondViewController.name = nameTextField.text ?? ""
         secondViewController.surname = surnameTextField.text ?? ""
-        secondViewController.number = numberTextField.text ?? ""
-        secondViewController.email =
+        secondViewController.mobile = numberTextField.text ?? ""
+        secondViewController.mail =
             emailTextField.text ?? ""
         secondViewController.password =
             passwordTextField.text ?? ""
